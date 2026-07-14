@@ -40,7 +40,7 @@ button{cursor:pointer}
 .page-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}.page-head h2{margin:0;font-size:22px}.page-head p{margin:5px 0 0;color:var(--muted);font-size:12px}.toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}.field-control{height:40px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0 12px;outline:none}.field-control:focus{border-color:var(--peach-600)}
 .board{display:grid;grid-template-columns:repeat(4,minmax(240px,1fr));gap:12px;overflow:auto}.column{background:#f5f1ed;border:1px solid #eee8e1;border-radius:14px;padding:12px;min-height:430px}.column-head{display:flex;justify-content:space-between;font-size:12px;font-weight:700;margin:2px 3px 11px}.ticket{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:9px;box-shadow:0 3px 10px rgba(47,54,85,.04)}.ticket:hover{border-color:#f0b79b;transform:translateY(-1px)}.ticket-title{font-size:12px;font-weight:700}.ticket-sub{font-size:10px;color:var(--muted);margin-top:6px}.ticket-foot{display:flex;justify-content:space-between;align-items:center;margin-top:11px}.score-pill{padding:4px 7px;border-radius:999px;background:#fff0e8;color:#e97655;font-size:9px;font-weight:700}
 .table-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:auto;box-shadow:var(--shadow)}table{width:100%;border-collapse:collapse;font-size:11px}th{background:#fbf8f5;color:#6f7481;font-weight:650;text-align:left;padding:12px;white-space:nowrap}td{padding:12px;border-top:1px solid var(--line);vertical-align:top}tbody tr:hover{background:#fffaf6}.empty{text-align:center;color:var(--muted);padding:34px}
-.modal{position:fixed;inset:0;background:rgba(17,26,47,.42);display:none;align-items:center;justify-content:center;padding:14px;z-index:50;backdrop-filter:blur(4px);opacity:0;transition:opacity .16s ease}.modal.show{display:flex;opacity:1}.modal-box{width:min(620px,92vw);max-height:82vh;overflow:auto;background:#fff;border-radius:15px;padding:17px 18px;box-shadow:0 22px 60px rgba(17,26,47,.22);transform:translateY(10px) scale(.985);transition:transform .16s ease}.modal.show .modal-box{transform:translateY(0) scale(1)}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}.modal-head h3{margin:0;font-size:16px;line-height:1.3}.modal-head .icon-btn{width:34px;height:34px;border-radius:8px;font-size:18px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 10px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}.field label{font-size:10px;font-weight:650;color:#737987}.field input,.field select,.field textarea{border:1px solid var(--line);border-radius:8px;padding:8px 9px;background:#fff;outline:none;font-size:12px;line-height:1.35}.field textarea{min-height:74px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--peach-600);box-shadow:0 0 0 2px rgba(255,145,109,.09)}.modal-actions{display:flex;justify-content:flex-end;gap:7px;margin-top:14px}.modal-actions .primary-btn,.modal-actions .soft-btn{height:34px;padding:0 12px;font-size:12px}.danger-btn{border:1px solid #f1caca;background:#fff;color:#c75e5e;border-radius:8px;padding:8px 11px;font-size:12px}
+.modal{position:fixed;inset:0;background:rgba(17,26,47,.45);display:none;align-items:center;justify-content:center;padding:18px;z-index:50;backdrop-filter:blur(5px)}.modal.show{display:flex}.modal-box{width:min(860px,100%);max-height:92vh;overflow:auto;background:#fff;border-radius:18px;padding:22px;box-shadow:0 24px 80px rgba(17,26,47,.25)}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:17px}.modal-head h3{margin:0;font-size:19px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:10px;font-weight:650;color:#737987}.field input,.field select,.field textarea{border:1px solid var(--line);border-radius:9px;padding:10px;background:#fff;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--peach-600);box-shadow:0 0 0 3px rgba(255,145,109,.1)}.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}.danger-btn{border:1px solid #f1caca;background:#fff;color:#c75e5e;border-radius:9px;padding:9px 13px}
 .toast{position:fixed;right:24px;bottom:24px;background:var(--navy-900);color:#fff;border-radius:10px;padding:12px 16px;font-size:12px;opacity:0;transform:translateY(10px);pointer-events:none;transition:.2s;z-index:70}.toast.show{opacity:1;transform:translateY(0)}
 @media(max-width:1250px){.grid-main{grid-template-columns:1.3fr 1fr}.grid-main .panel:last-child{grid-column:1/-1}.grid-bottom{grid-template-columns:repeat(2,1fr)}.kpis{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:820px){.app{grid-template-columns:1fr}.sidebar{height:auto;position:relative;padding:14px}.brand{padding:0 8px 10px}.brand-title{font-size:15px}.brand-hq{font-size:30px}.brand-tag,.sidebar-bottom{display:none}.nav{flex-direction:row;overflow:auto}.nav-btn{min-width:max-content;padding:10px}.main{padding:18px}.topbar{flex-direction:column}.top-actions{width:100%;flex-wrap:wrap}.search{flex:1;min-width:200px}.kpis{grid-template-columns:1fr}.grid-main,.grid-bottom{grid-template-columns:1fr}.grid-main .panel:last-child{grid-column:auto}.board{grid-template-columns:repeat(4,280px)}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}}
@@ -65,13 +65,13 @@ button{cursor:pointer}
 <main class="main">
   <div class="topbar">
     <div class="greeting"><h1>Good evening, Minwoo. 👋</h1><p>오늘도 브랜드를 만들고, 돈을 버는 하루가 되세요.</p></div>
-    <div class="top-actions"><div class="search"><span style="position:absolute;left:13px;top:10px;color:#9197a5">⌕</span><input id="globalSearch" placeholder="상품, 공급사, 태그 검색 (⌘K)"></div><button class="icon-btn">♧</button><button class="icon-btn">□</button><button class="primary-btn" onclick="openProductModal()">＋ 빠른 추가</button></div>
+    <div class="top-actions"><div class="search"><span style="position:absolute;left:13px;top:10px;color:#9197a5">⌕</span><input id="globalSearch" placeholder="상품, 공급사, 태그 검색 (⌘K)"></div><button class="primary-btn" onclick="openProductModal()">＋ 빠른 추가</button></div>
   </div>
 
   <section class="section active" id="dashboard">
     <div class="kpis" id="kpis"></div>
     <div class="grid-main">
-      <div class="panel"><div class="panel-head"><h2>월간 매출 & 순이익 추이</h2><select class="select-mini"><option>최근 6개월</option></select></div><div class="legend"><span><i style="background:#ff916d"></i>매출</span><span><i style="background:#192744"></i>순이익</span></div><div class="chart-wrap"><svg class="svg-chart" viewBox="0 0 520 220" preserveAspectRatio="none"><line class="gridline" x1="45" y1="30" x2="500" y2="30"/><line class="gridline" x1="45" y1="75" x2="500" y2="75"/><line class="gridline" x1="45" y1="120" x2="500" y2="120"/><line class="gridline" x1="45" y1="165" x2="500" y2="165"/><polyline class="line-peach" points="62,158 145,132 228,105 311,82 394,55 477,22"/><polyline class="line-navy" points="62,184 145,158 228,132 311,116 394,98 477,58"/><g id="chartDots"></g><text class="axis-text" x="52" y="207">2월</text><text class="axis-text" x="136" y="207">3월</text><text class="axis-text" x="219" y="207">4월</text><text class="axis-text" x="302" y="207">5월</text><text class="axis-text" x="385" y="207">6월</text><text class="axis-text" x="468" y="207">7월</text></svg></div></div>
+      <div class="panel"><div class="panel-head"><h2>월간 매출 & 순이익 추이</h2><select class="select-mini" id="chartRange" onchange="renderDashboard()"><option value="6">최근 6개월</option><option value="12">최근 12개월</option></select></div><div class="legend"><span><i style="background:#ff916d"></i>매출</span><span><i style="background:#192744"></i>순이익</span></div><div class="chart-wrap" id="monthlyChart"></div></div>
       <div class="panel"><div class="panel-head"><h2>오늘의 핵심 액션</h2><button class="panel-link" onclick="showSection('launch')">전체 보기 →</button></div><div class="task-list" id="todayTasks"></div></div>
       <div class="panel"><div class="panel-head"><h2>소싱 퍼널 현황</h2></div><div class="funnel"><div class="funnel-shape"><div class="funnel-step f1"></div><div class="funnel-step f2"></div><div class="funnel-step f3"></div><div class="funnel-step f4"></div><div class="funnel-step f5"></div></div><div class="funnel-stats" id="funnelStats"></div></div></div>
     </div>
@@ -90,10 +90,21 @@ button{cursor:pointer}
   <section class="section" id="finance"><div class="page-head"><div><h2>Finance</h2><p>원가, 손익, 발주, 재고와 판매 실적을 관리합니다.</p></div><button class="primary-btn" onclick="openGenericModal('pnl')">＋ 손익 시나리오</button></div><div class="panel" style="margin-bottom:14px"><div class="panel-head"><h2>원가·손익 계산</h2></div><div id="pnlTable"></div></div><div class="panel" style="margin-bottom:14px"><div class="panel-head"><h2>발주·재고</h2><button class="panel-link" onclick="openGenericModal('inventory')">＋ 등록</button></div><div id="inventoryTable"></div></div><div class="panel"><div class="panel-head"><h2>판매 실적</h2><button class="panel-link" onclick="openGenericModal('sales')">＋ 매출 입력</button></div><div id="salesTable"></div></div></section>
   <section class="section" id="launch"><div class="page-head"><div><h2>Launch</h2><p>로드맵과 액션 아이템을 실행 중심으로 관리합니다.</p></div><button class="primary-btn" onclick="openGenericModal('tasks')">＋ 액션 추가</button></div><div id="tasksTable"></div></section>
   <section class="section" id="knowledge"><div class="page-head"><div><h2>Knowledge</h2><p>프로젝트 운영 원칙과 의사결정 기준입니다.</p></div></div><div class="grid-bottom"><div class="panel"><h2>상품 선정 원칙</h2><p style="font-size:12px;color:var(--muted);line-height:1.8">좋아 보이는 상품보다 팔릴 가능성이 높은 상품을 선택합니다. 수요·마진·MOQ·인증·차별화 가능성을 함께 봅니다.</p></div><div class="panel"><h2>Go 기준</h2><p style="font-size:12px;color:var(--muted);line-height:1.8">Scorecard 80점 이상, 공헌이익 확보, 초기 재고 회수기간 6개월 이내를 기본 기준으로 둡니다.</p></div><div class="panel"><h2>Drop 기준</h2><p style="font-size:12px;color:var(--muted);line-height:1.8">인증 불확실성, 차별화 부재, 과도한 MOQ, 반복 불량 가능성이 있으면 미련 없이 제외합니다.</p></div><div class="panel"><h2>핵심 목표</h2><p style="font-size:12px;color:var(--muted);line-height:1.8">사이드잡으로 시작해 월급 이상의 안정적 순이익이 발생하면 본업 전환을 검토합니다.</p></div></div></section>
-  <section class="section" id="settings"><div class="page-head"><div><h2>Settings</h2><p>로컬 데이터의 백업과 복원을 관리합니다.</p></div></div><div class="grid-bottom"><div class="panel"><h2>JSON 백업</h2><p style="font-size:11px;color:var(--muted)">모든 데이터를 파일로 저장합니다.</p><button class="primary-btn" onclick="exportData()">백업 내보내기</button></div><div class="panel"><h2>데이터 복원</h2><p style="font-size:11px;color:var(--muted)">백업 JSON 파일을 불러옵니다.</p><label class="soft-btn">파일 선택<input type="file" accept=".json" hidden onchange="importData(event)"></label></div><div class="panel"><h2>상품 CSV</h2><p style="font-size:11px;color:var(--muted)">상품 목록을 CSV로 내보냅니다.</p><button class="soft-btn" onclick="exportCSV()">CSV 다운로드</button></div><div class="panel"><h2>전체 초기화</h2><p style="font-size:11px;color:var(--muted)">데모 데이터로 되돌립니다.</p><button class="danger-btn" onclick="resetData()">초기화</button></div></div></section>
+  <section class="section" id="settings"><div class="page-head"><div><h2>Settings</h2><p>재무 기준값과 로컬 데이터의 백업·복원을 관리합니다.</p></div></div>
+<div class="panel" style="margin-bottom:14px">
+  <div class="panel-head"><h2>현금보유액 계산 기준</h2></div>
+  <div class="form-grid">
+    <div class="field"><label>기초 현금</label><input id="cashOpening" type="number" min="0" placeholder="0"></div>
+    <div class="field"><label>미수금</label><input id="cashReceivables" type="number" min="0" placeholder="0"></div>
+    <div class="field"><label>미지급금</label><input id="cashPayables" type="number" min="0" placeholder="0"></div>
+    <div class="field"><label>발주 예정금액</label><input id="cashPlannedOrders" type="number" min="0" placeholder="0"></div>
+  </div>
+  <div class="modal-actions"><div style="margin-right:auto;font-size:11px;color:var(--muted)">현금보유액 = 기초 현금 + 누적 순이익 + 미수금 - 미지급금 - 발주 예정금액</div><button class="primary-btn" onclick="saveFinanceSettings()">저장</button></div>
+</div>
+<div class="grid-bottom"><div class="panel"><h2>JSON 백업</h2><p style="font-size:11px;color:var(--muted)">모든 데이터를 파일로 저장합니다.</p><button class="primary-btn" onclick="exportData()">백업 내보내기</button></div><div class="panel"><h2>데이터 복원</h2><p style="font-size:11px;color:var(--muted)">백업 JSON 파일을 불러옵니다.</p><label class="soft-btn">파일 선택<input type="file" accept=".json" hidden onchange="importData(event)"></label></div><div class="panel"><h2>상품 CSV</h2><p style="font-size:11px;color:var(--muted)">상품 목록을 CSV로 내보냅니다.</p><button class="soft-btn" onclick="exportCSV()">CSV 다운로드</button></div><div class="panel"><h2>전체 초기화</h2><p style="font-size:11px;color:var(--muted)">모든 입력 데이터를 삭제합니다.</p><button class="danger-btn" onclick="resetData()">초기화</button></div></div></section>
 </main>
 </div>
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><div class="modal-head"><h3 id="modalTitle">등록</h3><button class="icon-btn" onclick="closeModal()">×</button></div><form id="modalForm"><div id="modalFields" class="form-grid"></div><div class="modal-actions"><button type="button" class="soft-btn" onclick="closeModal()">취소</button><button class="primary-btn" type="submit">저장</button></div></form></div></div>
+<div class="modal" id="modal"><div class="modal-box"><div class="modal-head"><h3 id="modalTitle">등록</h3><button class="icon-btn" onclick="closeModal()">×</button></div><form id="modalForm"><div id="modalFields" class="form-grid"></div><div class="modal-actions"><button type="button" class="soft-btn" onclick="closeModal()">취소</button><button class="primary-btn" type="submit">저장</button></div></form></div></div>
 <div class="toast" id="toast">저장되었습니다.</div>
 <script>
 const KEY='smtm_hq_v2';
@@ -106,10 +117,22 @@ samples:[['productId','상품','product'],['supplier','공급사','text'],['requ
 pnl:[['productId','상품','product'],['unitCost','공급가','number'],['qty','수량','number'],['fx','환율','number'],['intlShip','국제운송비','number'],['duty','관세/통관비','number'],['certCost','인증비','number'],['packaging','패키지비','number'],['domestic','국내물류비/개','number'],['feeRate','플랫폼 수수료(%)','number'],['adRate','광고비율(%)','number'],['returnRate','반품충당률(%)','number'],['sellPrice','판매가','number']],
 certs:[['productId','상품','product'],['type','구분','select:KC|전기용품|어린이제품|식품용기|생활화학|전파인증|상표권|원산지표시|기타'],['required','필요 여부','select:필요|불필요|확인중'],['status','상태','select:미확인|검토중|진행중|완료'],['agency','기관/담당자','text'],['due','완료 예정일','date'],['cost','예상비용','number'],['notes','근거/메모','textarea']],
 inventory:[['productId','상품','product'],['orderDate','발주일','date'],['qty','발주수량','number'],['orderAmount','발주금액','number'],['eta','입고예정일','date'],['received','입고수량','number'],['defect','불량수량','number'],['sold','누적판매','number'],['reorderPoint','재발주점','number']],
-sales:[['date','날짜','date'],['productId','상품','product'],['channel','채널','select:스마트스토어|쿠팡|오늘의집|자사몰|공동구매|B2B|기타'],['orders','주문수','number'],['qty','판매수량','number'],['sales','매출','number'],['adSpend','광고비','number'],['fees','수수료','number'],['otherCost','기타비용','number']],
+sales:[['date','날짜','date'],['productId','상품','product'],['channel','채널','select:스마트스토어|쿠팡|오늘의집|자사몰|공동구매|B2B|기타'],['orders','주문수','number'],['qty','판매수량','number'],['sales','매출','number'],['cogs','상품원가','number'],['adSpend','광고비','number'],['fees','수수료','number'],['otherCost','기타비용','number']],
 tasks:[['title','액션','text'],['phase','단계','select:사업기획|상품발굴|시장검증|샘플|브랜딩|수입|런칭|판매|운영'],['priority','우선순위','select:높음|중간|낮음'],['due','마감일','date'],['status','상태','select:대기|진행중|완료|보류'],['productId','관련 상품','product'],['notes','메모','textarea']]
 };
-function seed(){return {products:[{id:'p1',name:'접이식 실리콘 보관용기 세트',category:'생활용품',source:'캔톤페어',target:'30~40대 가정',reason:'수납·냉동보관 수요',moq:500,unitCost:4200,targetPrice:23900,cert:'식품용기 검사 검토',status:'시장조사',notes:'밀폐력과 접이식 구조 차별화',created:new Date().toISOString()},{id:'p2',name:'다용도 미니 스팀다리미',category:'가전·디지털',source:'1688',target:'출장·여행 고객',reason:'휴대성과 즉시 사용성',moq:300,unitCost:8900,targetPrice:39900,cert:'KC 검토',status:'샘플',notes:'누수·예열속도 핵심',created:new Date().toISOString()},{id:'p3',name:'휴대용 텀블러형 유리컵',category:'주방용품',source:'Alibaba',target:'오피스·육아 고객',reason:'테이크아웃 컵 대체 수요',moq:1000,unitCost:3800,targetPrice:19900,cert:'식품용 검사',status:'아이디어',notes:'세척 편의성 확인',created:new Date().toISOString()}],scores:{p1:{market:13,competition:7,usp:12,content:8,margin:12,moq:8,cert:7,shipping:5,expansion:8},p2:{market:12,competition:8,usp:11,content:9,margin:13,moq:7,cert:5,shipping:4,expansion:7}},competitors:[],suppliers:[],samples:[{id:'sa1',productId:'p1',supplier:'Guangzhou Home',requestDate:'2026-07-07',arrivalDate:'',cost:62000,quality:0,issues:'',decision:'Hold',next:'배송 중'},{id:'sa2',productId:'p2',supplier:'Shenzhen Steam',requestDate:'2026-07-04',arrivalDate:'2026-07-11',cost:85000,quality:4,issues:'예열 양호',decision:'Go',next:'견적 비교'}],pnl:[],certs:[],inventory:[],sales:[{id:'s1',date:'2026-07-12',productId:'p1',channel:'공동구매',orders:352,qty:352,sales:23450000,adSpend:5560000,fees:2500000,otherCost:350000}],tasks:[{id:'t1',title:'샘플 검수 - 접이식 실리콘 보관용기 세트',phase:'샘플',priority:'높음',due:'2026-07-13',status:'완료',productId:'p1',notes:''},{id:'t2',title:'공급사 견적 비교 - 3건',phase:'상품발굴',priority:'높음',due:'2026-07-14',status:'완료',productId:'',notes:''},{id:'t3',title:'브랜드 네이밍 후보 검토',phase:'브랜딩',priority:'중간',due:'2026-07-14',status:'진행중',productId:'',notes:''},{id:'t4',title:'상세페이지 초안 피드백',phase:'런칭',priority:'중간',due:'2026-07-15',status:'대기',productId:'p1',notes:''}]}}
+function seed(){return {
+  products:[],
+  scores:{},
+  competitors:[],
+  suppliers:[],
+  samples:[],
+  pnl:[],
+  certs:[],
+  inventory:[],
+  sales:[],
+  tasks:[],
+  finance:{openingCash:0,receivables:0,payables:0,plannedOrders:0}
+}}
 let db=JSON.parse(localStorage.getItem(KEY)||'null')||seed();
 function save(){localStorage.setItem(KEY,JSON.stringify(db));renderAll();toast()}
 function won(v){return new Intl.NumberFormat('ko-KR',{style:'currency',currency:'KRW',maximumFractionDigits:0}).format(Number(v)||0)}
@@ -118,29 +141,146 @@ function product(id){return db.products.find(x=>x.id===id)}
 function scoreTotal(id){const s=db.scores[id]||{};return scoreDefs.reduce((a,[k])=>a+(+s[k]||0),0)}
 function showSection(id){document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav-btn').forEach(x=>x.classList.toggle('active',x.dataset.section===id));if(id==='market')loadScorecard()}
 document.getElementById('nav').onclick=e=>{const b=e.target.closest('[data-section]');if(b)showSection(b.dataset.section)};
-function renderDashboard(){const sales=db.sales.reduce((a,x)=>a+(+x.sales||0),0);const profit=db.sales.reduce((a,x)=>a+(+x.sales||0)-(+x.adSpend||0)-(+x.fees||0)-(+x.otherCost||0),0);const invested=db.inventory.reduce((a,x)=>a+(+x.orderAmount||0),0);const cash=Math.max(0,12500000+profit-invested);const roi=invested?profit/invested*100:(sales?profit/sales*100:0);document.getElementById('kpis').innerHTML=[['Cash','현금 보유액',won(cash),'▣'],['Profit','이번 달 순이익',won(profit),'↗'],['ROI','투자 대비 수익률',roi.toFixed(1)+'%','◔'],['GMV','이번 달 매출',won(sales),'♧']].map(x=>`<div class="kpi"><div><div class="eyebrow">${x[0]} <span>(${x[1]})</span></div><div class="value">${x[2]}</div><div class="delta">▲ 12.4%　<span style="color:var(--muted)">지난 달 대비</span></div></div><div class="icon">${x[3]}</div></div>`).join('');const tasks=[...db.tasks].sort((a,b)=>(a.due||'9999').localeCompare(b.due||'9999')).slice(0,5);document.getElementById('todayTasks').innerHTML=tasks.map(t=>`<div class="task-item"><span class="check ${t.status==='완료'?'done':''}"></span><span>${t.title}</span><span class="task-date">${t.due||'-'}</span></div>`).join('');const counts=[db.products.length,db.samples.length,db.products.filter(p=>['시장조사','손익검토'].includes(p.status)).length,db.products.filter(p=>['발주결정','브랜딩','판매준비'].includes(p.status)).length,db.products.filter(p=>p.status==='판매중').length];document.getElementById('funnelStats').innerHTML=[['아이디어 / 후보',counts[0]],['샘플 진행',counts[1]],['검토 중',counts[2]],['발주 / 생산 중',counts[3]],['판매 중',counts[4]]].map(([l,v])=>`<div><strong>${v}</strong>${l}</div>`).join('');document.getElementById('recentProducts').innerHTML=[...db.products].slice(-3).reverse().map((p,i)=>`<div class="mini-row"><div class="thumb">${['◫','▥','◧'][i%3]}</div><div><div class="mini-title">${p.name}</div><div class="mini-meta"><span class="tag">${p.category}</span></div></div><div class="right-meta">${won(p.unitCost)}<br>MOQ ${n(p.moq)}</div></div>`).join('');document.getElementById('sampleStatus').innerHTML=db.samples.slice(0,4).map(s=>`<div class="mini-row"><div class="thumb">△</div><div><div class="mini-title">${product(s.productId)?.name||'-'}</div><div class="mini-meta"><span class="tag ${s.decision==='Go'?'green':s.decision==='Hold'?'blue':'gray'}">${s.next||s.decision}</span></div></div><div class="right-meta">${s.requestDate||'-'}</div></div>`).join('')||'<div class="empty">샘플 데이터가 없습니다.</div>';document.getElementById('salesSummary').innerHTML=[['총 주문 수',n(db.sales.reduce((a,x)=>a+(+x.orders||0),0))+' 건'],['총 매출',won(sales)],['광고비',won(db.sales.reduce((a,x)=>a+(+x.adSpend||0),0))],['순이익',won(profit)],['순이익률',sales?(profit/sales*100).toFixed(1)+' %':'0.0 %']].map(x=>`<div class="summary-row"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('')}
+function monthKey(dateStr){
+  if(!dateStr) return '';
+  const d=new Date(dateStr);
+  if(Number.isNaN(d.getTime())) return '';
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+}
+function monthLabel(key){
+  const [y,m]=key.split('-');
+  return `${Number(m)}월`;
+}
+function getMonthlySeries(range=6){
+  const now=new Date();
+  const months=[];
+  for(let i=range-1;i>=0;i--){
+    const d=new Date(now.getFullYear(),now.getMonth()-i,1);
+    months.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`);
+  }
+  const map=Object.fromEntries(months.map(m=>[m,{sales:0,profit:0}]));
+  db.sales.forEach(x=>{
+    const key=monthKey(x.date);
+    if(!map[key]) return;
+    const sales=+x.sales||0;
+    const profit=sales-(+x.cogs||0)-(+x.adSpend||0)-(+x.fees||0)-(+x.otherCost||0);
+    map[key].sales+=sales;
+    map[key].profit+=profit;
+  });
+  return months.map(key=>({key,label:monthLabel(key),...map[key]}));
+}
+function renderMonthlyChart(){
+  const holder=document.getElementById('monthlyChart');
+  if(!holder) return;
+  const range=+(document.getElementById('chartRange')?.value||6);
+  const series=getMonthlySeries(range);
+  const hasData=series.some(x=>x.sales!==0||x.profit!==0);
+  if(!hasData){
+    holder.innerHTML='<div class="empty" style="padding-top:86px">판매 실적을 입력하면 월간 매출과 순이익 추이가 표시됩니다.</div>';
+    return;
+  }
+  const W=520,H=220,left=48,right=14,top=18,bottom=34;
+  const values=series.flatMap(x=>[x.sales,x.profit]);
+  const max=Math.max(1,...values);
+  const min=Math.min(0,...values);
+  const rangeVal=max-min||1;
+  const xStep=(W-left-right)/Math.max(1,series.length-1);
+  const y=v=>top+(max-v)/rangeVal*(H-top-bottom);
+  const salesPts=series.map((x,i)=>`${left+i*xStep},${y(x.sales)}`).join(' ');
+  const profitPts=series.map((x,i)=>`${left+i*xStep},${y(x.profit)}`).join(' ');
+  const grid=[0,.25,.5,.75,1].map(t=>{
+    const yy=top+t*(H-top-bottom);
+    const value=max-t*rangeVal;
+    return `<line class="gridline" x1="${left}" y1="${yy}" x2="${W-right}" y2="${yy}"/><text class="axis-text" x="2" y="${yy+3}">${Math.round(value/10000)/100}M</text>`;
+  }).join('');
+  const labels=series.map((x,i)=>`<text class="axis-text" text-anchor="middle" x="${left+i*xStep}" y="${H-8}">${x.label}</text>`).join('');
+  const dots=series.map((x,i)=>`<circle class="dot-peach" cx="${left+i*xStep}" cy="${y(x.sales)}" r="4"/><circle class="dot-navy" cx="${left+i*xStep}" cy="${y(x.profit)}" r="4"/>`).join('');
+  holder.innerHTML=`<svg class="svg-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">${grid}<polyline class="line-peach" points="${salesPts}"/><polyline class="line-navy" points="${profitPts}"/>${dots}${labels}</svg>`;
+}
+function renderDashboard(){
+  const totalSales=db.sales.reduce((a,x)=>a+(+x.sales||0),0);
+  const totalProfit=db.sales.reduce((a,x)=>a+(+x.sales||0)-(+x.cogs||0)-(+x.adSpend||0)-(+x.fees||0)-(+x.otherCost||0),0);
+  const invested=db.inventory.reduce((a,x)=>a+(+x.orderAmount||0),0);
+  const f=db.finance||{openingCash:0,receivables:0,payables:0,plannedOrders:0};
+  const cash=(+f.openingCash||0)+totalProfit+(+f.receivables||0)-(+f.payables||0)-(+f.plannedOrders||0);
+  const roi=invested?totalProfit/invested*100:0;
+
+  document.getElementById('kpis').innerHTML=[
+    ['Cash','현금 보유액',won(cash),'▣'],
+    ['Profit','누적 순이익',won(totalProfit),'↗'],
+    ['ROI','투자 대비 수익률',roi.toFixed(1)+'%','◔'],
+    ['GMV','누적 매출',won(totalSales),'♧']
+  ].map(x=>`<div class="kpi"><div><div class="eyebrow">${x[0]} <span>(${x[1]})</span></div><div class="value">${x[2]}</div></div><div class="icon">${x[3]}</div></div>`).join('');
+
+  const tasks=[...db.tasks].sort((a,b)=>(a.due||'9999').localeCompare(b.due||'9999')).slice(0,5);
+  document.getElementById('todayTasks').innerHTML=tasks.length?tasks.map(t=>`<div class="task-item"><span class="check ${t.status==='완료'?'done':''}"></span><span>${t.title}</span><span class="task-date">${t.due||'-'}</span></div>`).join(''):'<div class="empty">등록된 액션이 없습니다.</div>';
+
+  const counts=[
+    db.products.length,
+    db.samples.length,
+    db.products.filter(p=>['시장조사','손익검토'].includes(p.status)).length,
+    db.products.filter(p=>['발주결정','브랜딩','판매준비'].includes(p.status)).length,
+    db.products.filter(p=>p.status==='판매중').length
+  ];
+  document.getElementById('funnelStats').innerHTML=[['아이디어 / 후보',counts[0]],['샘플 진행',counts[1]],['검토 중',counts[2]],['발주 / 생산 중',counts[3]],['판매 중',counts[4]]].map(([l,v])=>`<div><strong>${v}</strong>${l}</div>`).join('');
+
+  document.getElementById('recentProducts').innerHTML=db.products.length?[...db.products].slice(-3).reverse().map((p,i)=>`<div class="mini-row"><div class="thumb">${['◫','▥','◧'][i%3]}</div><div><div class="mini-title">${p.name}</div><div class="mini-meta"><span class="tag">${p.category}</span></div></div><div class="right-meta">${won(p.unitCost)}<br>MOQ ${n(p.moq)}</div></div>`).join(''):'<div class="empty">등록된 상품이 없습니다.</div>';
+
+  document.getElementById('sampleStatus').innerHTML=db.samples.length?db.samples.slice(0,4).map(s=>`<div class="mini-row"><div class="thumb">△</div><div><div class="mini-title">${product(s.productId)?.name||'-'}</div><div class="mini-meta"><span class="tag ${s.decision==='Go'?'green':s.decision==='Hold'?'blue':'gray'}">${s.next||s.decision}</span></div></div><div class="right-meta">${s.requestDate||'-'}</div></div>`).join(''):'<div class="empty">등록된 샘플이 없습니다.</div>';
+
+  document.getElementById('salesSummary').innerHTML=[
+    ['총 주문 수',n(db.sales.reduce((a,x)=>a+(+x.orders||0),0))+' 건'],
+    ['총 매출',won(totalSales)],
+    ['상품원가',won(db.sales.reduce((a,x)=>a+(+x.cogs||0),0))],
+    ['광고비',won(db.sales.reduce((a,x)=>a+(+x.adSpend||0),0))],
+    ['순이익',won(totalProfit)],
+    ['순이익률',totalSales?(totalProfit/totalSales*100).toFixed(1)+' %':'0.0 %']
+  ].map(x=>`<div class="summary-row"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');
+
+  renderMonthlyChart();
+}
 function renderProducts(){const q=(document.getElementById('productSearch')?.value||'').toLowerCase(),cat=document.getElementById('categoryFilter')?.value||'';const list=db.products.filter(p=>(!q||(p.name+p.category).toLowerCase().includes(q))&&(!cat||p.category===cat));const groups=[['아이디어',['아이디어']],['검증 중',['시장조사','샘플','손익검토']],['실행 중',['발주결정','브랜딩','판매준비']],['판매 중',['판매중']]];document.getElementById('productBoard').innerHTML=groups.map(([title,sts])=>`<div class="column"><div class="column-head"><span>${title}</span><span>${list.filter(p=>sts.includes(p.status)).length}</span></div>${list.filter(p=>sts.includes(p.status)).map(p=>`<div class="ticket" onclick="openProductModal('${p.id}')"><div class="ticket-title">${p.name}</div><div class="ticket-sub">${p.category} · ${p.status}</div><div class="ticket-foot"><span class="score-pill">${scoreTotal(p.id)}점</span><span style="font-size:10px;color:var(--muted)">MOQ ${n(p.moq)}</span></div></div>`).join('')||'<div class="empty">없음</div>'}</div>`).join('');const sel=document.getElementById('categoryFilter');if(sel){const cur=sel.value;const cats=[...new Set(db.products.map(p=>p.category))];sel.innerHTML='<option value="">전체 카테고리</option>'+cats.map(c=>`<option>${c}</option>`).join('');sel.value=cur}}
 function table(type,cols,computed=[]){const rows=db[type];return `<div class="table-card"><table><thead><tr>${cols.map(c=>`<th>${c[1]}</th>`).join('')}${computed.map(c=>`<th>${c[1]}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr onclick="openGenericModal('${type}','${r.id}')">${cols.map(([k,l,f])=>`<td>${fmt(r,k,f)}</td>`).join('')}${computed.map(c=>`<td>${c[2](r)}</td>`).join('')}</tr>`).join('')||`<tr><td class="empty" colspan="${cols.length+computed.length}">등록된 데이터가 없습니다.</td></tr>`}</tbody></table></div>`}
 function fmt(r,k,f){let v=r[k]??'';if(k==='productId')v=product(v)?.name||'-';if(f==='money')return won(v);if(f==='num')return n(v);if(f==='tag')return `<span class="tag">${v}</span>`;return v}
 function calc(r){const qty=+r.qty||0,unit=+r.unitCost||0,fx=+r.fx||1,sell=+r.sellPrice||0,fixed=(+r.intlShip||0)+(+r.duty||0)+(+r.certCost||0)+(+r.packaging||0);const landed=qty?unit*fx+fixed/qty+(+r.domestic||0):0,variable=sell*((+r.feeRate||0)+(+r.adRate||0)+(+r.returnRate||0))/100,profit=sell-landed-variable;return{landed,profit,margin:sell?profit/sell*100:0}}
-function renderTables(){document.getElementById('competitorsTable').innerHTML=table('competitors',[['productId','상품'],['brand','브랜드'],['name','제품'],['price','판매가','money'],['reviews','리뷰','num'],['rating','평점'],['usp','USP']]);document.getElementById('suppliersTable').innerHTML=table('suppliers',[['name','업체명'],['type','구분','tag'],['contact','담당자'],['category','카테고리'],['moq','MOQ','num'],['leadTime','리드타임'],['oem','OEM/ODM'],['rating','평가']]);document.getElementById('samplesTable').innerHTML=table('samples',[['productId','상품'],['supplier','공급사'],['requestDate','요청일'],['arrivalDate','도착일'],['cost','비용','money'],['quality','품질'],['decision','판정','tag'],['next','다음 액션']]);document.getElementById('certsTable').innerHTML=table('certs',[['productId','상품'],['type','구분'],['required','필요 여부','tag'],['status','상태','tag'],['agency','기관'],['due','예정일'],['cost','비용','money']]);document.getElementById('pnlTable').innerHTML=table('pnl',[['productId','상품'],['qty','수량','num'],['unitCost','공급가','money'],['sellPrice','판매가','money']],[['landed','착지원가',r=>won(calc(r).landed)],['profit','개당이익',r=>won(calc(r).profit)],['margin','이익률',r=>calc(r).margin.toFixed(1)+'%']]);document.getElementById('inventoryTable').innerHTML=table('inventory',[['productId','상품'],['orderDate','발주일'],['qty','발주수량','num'],['orderAmount','발주금액','money'],['eta','입고예정'],['received','입고','num'],['defect','불량','num'],['sold','판매','num']],[['stock','가용재고',r=>n((+r.received||0)-(+r.defect||0)-(+r.sold||0))]]);document.getElementById('salesTable').innerHTML=table('sales',[['date','날짜'],['productId','상품'],['channel','채널'],['orders','주문','num'],['qty','수량','num'],['sales','매출','money'],['adSpend','광고비','money'],['fees','수수료','money']],[['profit','영업기여',r=>won((+r.sales||0)-(+r.adSpend||0)-(+r.fees||0)-(+r.otherCost||0))]]);document.getElementById('tasksTable').innerHTML=table('tasks',[['title','액션'],['phase','단계'],['priority','우선순위','tag'],['due','마감일'],['status','상태','tag'],['productId','관련 상품'],['notes','메모']])}
+function renderTables(){document.getElementById('competitorsTable').innerHTML=table('competitors',[['productId','상품'],['brand','브랜드'],['name','제품'],['price','판매가','money'],['reviews','리뷰','num'],['rating','평점'],['usp','USP']]);document.getElementById('suppliersTable').innerHTML=table('suppliers',[['name','업체명'],['type','구분','tag'],['contact','담당자'],['category','카테고리'],['moq','MOQ','num'],['leadTime','리드타임'],['oem','OEM/ODM'],['rating','평가']]);document.getElementById('samplesTable').innerHTML=table('samples',[['productId','상품'],['supplier','공급사'],['requestDate','요청일'],['arrivalDate','도착일'],['cost','비용','money'],['quality','품질'],['decision','판정','tag'],['next','다음 액션']]);document.getElementById('certsTable').innerHTML=table('certs',[['productId','상품'],['type','구분'],['required','필요 여부','tag'],['status','상태','tag'],['agency','기관'],['due','예정일'],['cost','비용','money']]);document.getElementById('pnlTable').innerHTML=table('pnl',[['productId','상품'],['qty','수량','num'],['unitCost','공급가','money'],['sellPrice','판매가','money']],[['landed','착지원가',r=>won(calc(r).landed)],['profit','개당이익',r=>won(calc(r).profit)],['margin','이익률',r=>calc(r).margin.toFixed(1)+'%']]);document.getElementById('inventoryTable').innerHTML=table('inventory',[['productId','상품'],['orderDate','발주일'],['qty','발주수량','num'],['orderAmount','발주금액','money'],['eta','입고예정'],['received','입고','num'],['defect','불량','num'],['sold','판매','num']],[['stock','가용재고',r=>n((+r.received||0)-(+r.defect||0)-(+r.sold||0))]]);document.getElementById('salesTable').innerHTML=table('sales',[['date','날짜'],['productId','상품'],['channel','채널'],['orders','주문','num'],['qty','수량','num'],['sales','매출','money'],['cogs','상품원가','money'],['adSpend','광고비','money'],['fees','수수료','money']],[['profit','순이익',r=>won((+r.sales||0)-(+r.cogs||0)-(+r.adSpend||0)-(+r.fees||0)-(+r.otherCost||0))]]);document.getElementById('tasksTable').innerHTML=table('tasks',[['title','액션'],['phase','단계'],['priority','우선순위','tag'],['due','마감일'],['status','상태','tag'],['productId','관련 상품'],['notes','메모']])}
 function openProductModal(id=''){const p=id?product(id):{};document.getElementById('modalTitle').textContent=id?'상품 수정':'상품 등록';const fields=[['name','상품명','text'],['category','카테고리','text'],['source','발견 경로','text'],['url','상품 링크','text'],['target','타깃 고객','text'],['reason','왜 팔릴 것 같은가','textarea'],['moq','MOQ','number'],['unitCost','예상 공급가','number'],['targetPrice','예상 판매가','number'],['cert','인증 검토','text'],['status','상태','select:'+stages.join('|')],['notes','메모','textarea']];buildModal(fields,p,data=>{if(id)Object.assign(p,data);else{data.id='p'+Date.now();data.created=new Date().toISOString();db.products.push(data)}save();closeModal()},id?()=>del('products',id):null)}
 function openGenericModal(type,id=''){const row=id?db[type].find(x=>x.id===id):{};document.getElementById('modalTitle').textContent=id?'수정':'등록';buildModal(schemas[type],row,data=>{if(id)Object.assign(row,data);else{data.id=type.slice(0,2)+Date.now();db[type].push(data)}save();closeModal()},id?()=>del(type,id):null)}
-function buildModal(fields,values,onSave,onDelete){const h=document.getElementById('modalFields');h.innerHTML='';fields.forEach(([k,l,t])=>{let c='';if(t==='textarea')c=`<textarea name="${k}" rows="3">${values[k]||''}</textarea>`;else if(t==='product')c=`<select name="${k}"><option value="">선택 안 함</option>${db.products.map(p=>`<option value="${p.id}" ${values[k]===p.id?'selected':''}>${p.name}</option>`).join('')}</select>`;else if(t.startsWith('select:')){const opts=t.split(':')[1].split('|');c=`<select name="${k}">${opts.map(o=>`<option ${values[k]===o?'selected':''}>${o}</option>`).join('')}</select>`}else c=`<input name="${k}" type="${t}" value="${values[k]??''}">`;h.insertAdjacentHTML('beforeend',`<div class="field ${t==='textarea'?'full':''}"><label>${l}</label>${c}</div>`)});if(onDelete)h.insertAdjacentHTML('beforeend','<div class="field full"><button type="button" id="deleteBtn" class="danger-btn">삭제</button></div>');const f=document.getElementById('modalForm');f.onsubmit=e=>{e.preventDefault();const data={};new FormData(f).forEach((v,k)=>data[k]=v);onSave(data)};setTimeout(()=>{const b=document.getElementById('deleteBtn');if(b)b.onclick=onDelete},0);document.getElementById('modal').classList.add('show')}
-function closeModal(){document.getElementById('modal').classList.remove('show')}function del(type,id){if(confirm('삭제하시겠습니까?')){db[type]=db[type].filter(x=>x.id!==id);save();closeModal()}}
+function buildModal(fields,values,onSave,onDelete){const h=document.getElementById('modalFields');h.innerHTML='';fields.forEach(([k,l,t])=>{let c='';if(t==='textarea')c=`<textarea name="${k}" rows="3">${values[k]||''}</textarea>`;else if(t==='product')c=`<select name="${k}"><option value="">선택 안 함</option>${db.products.map(p=>`<option value="${p.id}" ${values[k]===p.id?'selected':''}>${p.name}</option>`).join('')}</select>`;else if(t.startsWith('select:')){const opts=t.split(':')[1].split('|');c=`<select name="${k}">${opts.map(o=>`<option ${values[k]===o?'selected':''}>${o}</option>`).join('')}</select>`}else c=`<input name="${k}" type="${t}" value="${values[k]??''}">`;h.insertAdjacentHTML('beforeend',`<div class="field ${t==='textarea'?'full':''}"><label>${l}</label>${c}</div>`)});if(onDelete)h.insertAdjacentHTML('beforeend','<div class="field full"><button type="button" id="deleteBtn" class="danger-btn">삭제</button></div>');const f=document.getElementById('modalForm');f.onsubmit=e=>{e.preventDefault();const data={};new FormData(f).forEach((v,k)=>data[k]=v);onSave(data)};setTimeout(()=>{const b=document.getElementById('deleteBtn');if(b)b.onclick=onDelete},0);document.getElementById('modal').classList.add('show');document.body.style.overflow='hidden'}
+function closeModal(){const m=document.getElementById('modal');m.classList.remove('show');document.body.style.overflow=''}function del(type,id){if(confirm('삭제하시겠습니까?')){db[type]=db[type].filter(x=>x.id!==id);save();closeModal()}}
 function renderScoreSelect(){const s=document.getElementById('scoreProduct'),cur=s.value;s.innerHTML='<option value="">상품 선택</option>'+db.products.map(p=>`<option value="${p.id}">${p.name}</option>`).join('');if(db.products.some(p=>p.id===cur))s.value=cur;else if(db.products[0])s.value=db.products[0].id}
 function loadScorecard(){const id=document.getElementById('scoreProduct').value;if(!id)return;const s=db.scores[id]||{};document.getElementById('scoreFields').innerHTML=scoreDefs.map(([k,l,max])=>`<div class="field"><label>${l} · 최대 ${max}점</label><input type="number" min="0" max="${max}" data-score="${k}" value="${s[k]||0}" oninput="previewScore()"></div>`).join('');previewScore()}
 function previewScore(){const t=[...document.querySelectorAll('[data-score]')].reduce((a,e)=>a+(+e.value||0),0);const d=t>=80?'GO · 샘플 우선':t>=70?'검증 계속':t>=60?'HOLD':'DROP';document.getElementById('scoreResult').textContent=`${t}점 · ${d}`}
 function saveScorecard(){const id=document.getElementById('scoreProduct').value;if(!id)return alert('상품을 선택하세요.');db.scores[id]={};document.querySelectorAll('[data-score]').forEach(e=>db.scores[id][e.dataset.score]=+e.value||0);save()}
+function loadFinanceSettings(){
+  const f=db.finance||{openingCash:0,receivables:0,payables:0,plannedOrders:0};
+  const map={cashOpening:'openingCash',cashReceivables:'receivables',cashPayables:'payables',cashPlannedOrders:'plannedOrders'};
+  Object.entries(map).forEach(([id,key])=>{const el=document.getElementById(id);if(el)el.value=f[key]||0});
+}
+function saveFinanceSettings(){
+  db.finance={
+    openingCash:+document.getElementById('cashOpening').value||0,
+    receivables:+document.getElementById('cashReceivables').value||0,
+    payables:+document.getElementById('cashPayables').value||0,
+    plannedOrders:+document.getElementById('cashPlannedOrders').value||0
+  };
+  save();
+}
 function exportData(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(db,null,2)],{type:'application/json'}));a.download='show-me-the-money-hq-backup.json';a.click()}
 function importData(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{db=JSON.parse(r.result);save()}catch{alert('올바른 JSON 파일이 아닙니다.')}};r.readAsText(f)}
 function exportCSV(){const cols=['name','category','source','target','moq','unitCost','targetPrice','cert','status','notes'];const rows=[cols.join(','),...db.products.map(p=>cols.map(k=>`"${String(p[k]??'').replaceAll('"','""')}"`).join(','))];const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+rows.join('\n')],{type:'text/csv'}));a.download='products.csv';a.click()}
-function resetData(){if(confirm('전체 데이터를 초기화하시겠습니까?')){db=seed();save()}}
+function resetData(){if(confirm('입력한 모든 데이터를 삭제하시겠습니까?')){db=seed();save()}}
 function toast(){const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1300)}
-function renderAll(){renderDashboard();renderProducts();renderTables();renderScoreSelect()}
-document.addEventListener('keydown',e=>{
-  if(e.key==='Escape' && document.getElementById('modal').classList.contains('show')){
-    closeModal();
+function renderAll(){renderDashboard();renderProducts();renderTables();renderScoreSelect();loadFinanceSettings()}
+
+
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'||e.key==='Esc'){
+    const modal=document.getElementById('modal');
+    if(modal&&modal.classList.contains('show')){
+      e.preventDefault();
+      closeModal();
+    }
     return;
   }
   if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){
@@ -148,9 +288,10 @@ document.addEventListener('keydown',e=>{
     document.getElementById('globalSearch').focus();
   }
 });
-document.getElementById('modal').addEventListener('click',e=>{
-  if(e.target===e.currentTarget) closeModal();
+document.getElementById('modal').addEventListener('mousedown',function(e){
+  if(e.target===this) closeModal();
 });
+
 renderAll();loadScorecard();
 </script>
 </body>
